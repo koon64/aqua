@@ -3984,6 +3984,33 @@ body {
   }
 }
 
+.main {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 4rem;
+  display: flex;
+}
+@media (min-width: 640px) {
+  .main {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .main {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .main {
+    max-width: 1280px;
+  }
+}
+
 .grid {
   display: grid;
 }
@@ -4121,9 +4148,9 @@ footer {
   background-color: #24262a;
   color: #636974;
   text-align: center;
-  margin-top: 1.5rem;
   position: absolute;
   bottom: 0;
+  width: 100%;
   padding: 0.5rem;
 }
 
