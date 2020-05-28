@@ -1,0 +1,280 @@
+// Border Width
+
+@mixin border
+  border-width: $border-width-base
+
+@mixin border-0
+  border-width: $border-width-0
+
+@mixin border-2
+  border-width: $border-width-2
+
+@mixin border-4
+  border-width: $border-width-4
+
+@mixin border-8
+  border-width: $border-width-8
+
+@mixin border-t
+  border-top-width: $border-width-base
+
+@mixin border-t-0
+  border-top-width: $border-width-0
+
+@mixin border-t-2
+  border-top-width: $border-width-2
+
+@mixin border-t-4
+  border-top-width: $border-width-4
+
+@mixin border-t-8
+  border-top-width: $border-width-8
+
+@mixin border-r
+  border-right-width: $border-width-base
+
+@mixin border-r-0
+  border-right-width: $border-width-0
+
+@mixin border-r-2
+  border-right-width: $border-width-2
+
+@mixin border-r-4
+  border-right-width: $border-width-4
+
+@mixin border-r-8
+  border-right-width: $border-width-8
+
+@mixin border-b
+  border-bottom-width: $border-width-base
+
+@mixin border-b-0
+  border-bottom-width: $border-width-0
+
+@mixin border-b-2
+  border-bottom-width: $border-width-2
+
+@mixin border-b-4
+  border-bottom-width: $border-width-4
+
+@mixin border-b-8
+  border-bottom-width: $border-width-8
+
+@mixin border-l
+  border-left-width: $border-width-base
+
+@mixin border-l-0
+  border-left-width: $border-width-0
+
+@mixin border-l-2
+  border-left-width: $border-width-2
+
+@mixin border-l-4
+  border-left-width: $border-width-4
+
+@mixin border-l-8
+  border-left-width: $border-width-8
+
+
+
+
+// Border Radius
+
+@mixin rounded-none
+  -webkit-border-radius: $border-rounded-none
+  -moz-border-radius: $border-rounded-none
+  border-radius: $border-rounded-none
+
+@mixin rounded-sm
+  -webkit-border-radius: $border-rounded-sm
+  -moz-border-radius: $border-rounded-sm
+  border-radius: $border-rounded-sm
+
+@mixin rounded
+  -webkit-border-radius: $border-rounded
+  -moz-border-radius: $border-rounded
+  border-radius: $border-rounded
+
+@mixin rounded-md
+  -webkit-border-radius: $border-rounded-md
+  -moz-border-radius: $border-rounded-md
+  border-radius: $border-rounded-md
+
+@mixin rounded-lg
+  -webkit-border-radius: $border-rounded-lg
+  -moz-border-radius: $border-rounded-lg
+  border-radius: $border-rounded-lg
+
+@mixin rounded-full
+  -webkit-border-radius: $border-rounded-full
+  -moz-border-radius: $border-rounded-full
+  border-radius: $border-rounded-full
+
+@mixin rounded-1-none
+  border-top-left-radius: $border-rounded-none
+
+@mixin rounded-2-none
+  border-top-right-radius: $border-rounded-none
+
+@mixin rounded-3-none
+  border-bottom-right-radius: $border-rounded-none
+
+@mixin rounded-4-none
+  border-bottom-left-radius: $border-rounded-none
+
+@mixin rounded-1-sm
+  border-top-left-radius: $border-rounded-sm
+
+@mixin rounded-2-sm
+  border-top-right-radius: $border-rounded-sm
+
+@mixin rounded-3-sm
+  border-bottom-right-radius: $border-rounded-sm
+
+@mixin rounded-4-sm
+  border-bottom-left-radius: $border-rounded-sm
+
+@mixin rounded-1
+  border-top-left-radius: $border-rounded-sm
+
+@mixin rounded-2
+  border-top-right-radius: $border-rounded
+
+@mixin rounded-3
+  border-bottom-right-radius: $border-rounded
+
+@mixin rounded-4
+  border-bottom-left-radius: $border-rounded
+
+@mixin rounded-1-md
+  border-top-left-radius: $border-rounded-md
+
+@mixin rounded-2-md
+  border-top-right-radius: $border-rounded-md
+
+@mixin rounded-3-md
+  border-bottom-right-radius: $border-rounded-md
+
+@mixin rounded-4-md
+  border-bottom-left-radius: $border-rounded-md
+
+@mixin rounded-1-lg
+  border-top-left-radius: $border-rounded-lg
+
+@mixin rounded-2-lg
+  border-top-right-radius: $border-rounded-lg
+
+@mixin rounded-3-lg
+  border-bottom-right-radius: $border-rounded-lg
+
+@mixin rounded-4-lg
+  border-bottom-left-radius: $border-rounded-lg
+
+@mixin rounded-1-full
+  border-top-left-radius: $border-rounded-full
+
+@mixin rounded-2-full
+  border-top-right-radius: $border-rounded-full
+
+@mixin rounded-3-full
+  border-bottom-right-radius: $border-rounded-full
+
+@mixin rounded-4-full
+  border-bottom-left-radius: $border-rounded-full
+
+@mixin rounded-t-none
+  @include rounded-1-none
+  @include rounded-2-none
+
+@mixin rounded-b-none
+  @include rounded-3-none
+  @include rounded-4-none
+
+@mixin rounded-r-none
+  @include rounded-2-none
+  @include rounded-3-none
+
+@mixin rounded-l-none
+  @include rounded-1-none
+  @include rounded-4-none
+
+@mixin rounded-t-sm
+  @include rounded-1-sm
+  @include rounded-2-sm
+
+@mixin rounded-b-sm
+  @include rounded-4-sm
+  @include rounded-3-sm
+
+@mixin rounded-r-sm
+  @include rounded-3-sm
+  @include rounded-2-sm
+
+@mixin rounded-l-sm
+  @include rounded-4-sm
+  @include rounded-1-sm
+
+@mixin rounded-t
+  @include rounded-1
+  @include rounded-2
+
+@mixin rounded-b
+  @include rounded-4
+  @include rounded-3
+
+@mixin rounded-r
+  @include rounded-3
+  @include rounded-2
+
+@mixin rounded-l
+  @include rounded-4
+  @include rounded-1
+
+@mixin rounded-t-md
+  @include rounded-1-md
+  @include rounded-2-md
+
+@mixin rounded-b-md
+  @include rounded-4-md
+  @include rounded-3-md
+
+@mixin rounded-r-md
+  @include rounded-3-md
+  @include rounded-2-md
+
+@mixin rounded-l-md
+  @include rounded-4-md
+  @include rounded-1-md
+
+@mixin rounded-t-lg
+  @include rounded-1-lg
+  @include rounded-2-lg
+
+@mixin rounded-b-lg
+  @include rounded-4-lg
+  @include rounded-3-lg
+
+@mixin rounded-r-lg
+  @include rounded-3-lg
+  @include rounded-2-lg
+
+@mixin rounded-l-lg
+  @include rounded-4-lg
+  @include rounded-1-lg
+
+
+@mixin rounded-t-full
+  @include rounded-1-full
+  @include rounded-2-full
+
+@mixin rounded-b-full
+  @include rounded-4-full
+  @include rounded-3-full
+
+@mixin rounded-r-full
+  @include rounded-3-full
+  @include rounded-2-full
+
+@mixin rounded-l-full
+  @include rounded-4-full
+  @include rounded-1-full

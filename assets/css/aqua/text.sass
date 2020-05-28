@@ -1,0 +1,33 @@
+// Headers
+
+
+h1
+  margin: 0
+  line-height: 1
+  @include text-4xl
+  @include font-semibold
+
+  &.jumbo
+    @include text-6xl
+    @include font-black
+
+h2
+  margin: 0
+  @include text-3xl
+  @include font-base
+
+.text_list
+  h1, h2, h3, h4, h5, h6
+    @include text-base
+    @include margin-0
+    @include margin-bottom-1
+    @include font-base
+    display: block
+
+
+  > h1
+    @include font-semibold
+    @include text-lg
+
+  > h3
+    @include opacity-75
