@@ -1,0 +1,16 @@
+@mixin absolute
+  position: absolute
+
+@mixin centered-x
+  @include absolute
+  left: 50%
+  transform: translateX(-50%)
+
+@mixin centered-y
+  @include absolute
+  top: 50%
+  transform: translateY(-50%)
+
+@mixin centered
+  @include centered-x
+  @include centered-y
