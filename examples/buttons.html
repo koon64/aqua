@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+    <link href="../aqua.css" type="text/css" rel="stylesheet">
+    <!--<script src="https://unpkg.com/object-fit-images@3.2.4/dist/ofi.min.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax-video.js"></script>-->
+</head>
+<body>
+<navbar dynamic id="nav" class="clear">
+    <div class="nav_content">
+        <div class="left">
+            ON THE LEFT
+        </div>
+        <div class="center">
+            ON THE CENTER
+        </div>
+        <div class="right">
+            ON THE RIGHT
+        </div>
+    </div>
+</navbar>
+<div class="jumbohead liquid">
+    <div class="container p-4">
+        <h1 class="jumbo">Buttons!</h1>
+        <p>Here are the buttons</p>
+    </div>
+</div>
+<div class="main">
+    <div class="w-2/3 box box">
+        <section>
+            <h1>Examples</h1>
+            <p>Aqua comes with a few default button designs for many purposes</p>
+            <button>Default</button>
+            <a href="#">
+                <button>Default</button>
+            </a>
+            <button class="primary">Primary</button>
+            <button class="red">Red</button>
+            <button class="orange">Orange</button>
+            <button class="yellow">Yellow</button>
+            <button class="green">Green</button>
+            <button class="blue">Blue</button>
+            <button class="purple">Purple</button>
+            <button class="grey">Grey</button>
+            <button class="black">Black</button>
+            <hr>
+            <h1>Flat</h1>
+            <p>Here are flat buttons</p>
+            <button class="flat">Flat Button!</button>
+            <button class="red flat">Red Flat Button!</button>
+            <button class="orange flat">Orange One</button>
+            <button class="yellow flat">Yellow</button>
+            <button class="green flat">Green</button>
+            <button class="blue flat">Blue</button>
+            <button class="purple flat">Purple</button>
+            <hr>
+            <h1>Pill</h1>
+            <p>Here are pill buttons</p>
+            <button class="pill">Pill Button!</button>
+            <button class="pill flat">Flat Pill Button!</button>
+            <button class="black flat pill">Black & Flat!</button>
+            <hr>
+            <h1>Inactive</h1>
+            <p>Inactive buttons</p>
+            <button disabled>Don't Click</button>
+            <button class="flat" disabled>No Flat!</button>
+            <button class="primary flat" disabled>With Colors</button>
+            <hr>
+            <h1>Icons</h1>
+            <p>Aqua uses Font-Awesome for icons</p>
+            <button><i class="fa fa-user"></i>Profile</button>
+            <p>You can also include images for icons</p>
+            <button><i class="img-icon"><img class="rounded-full" src="https://i.imgur.com/phX7Urh.jpg"></i>Racoon!</button>
+            <hr>
+            <h1>Loading</h1>
+            <p>Native loading support</p>
+            <button disabled><i class="fa fa-spin fa-circle-o-notch"></i>Loading...</button>
+            <p>Is the same as</p>
+            <button class="loading" disabled>Loading...</button>
+            <hr>
+            <h1>Button Rows</h1>
+            <p>A Row of buttons</p>
+            <div class="btn-row">
+                <button>First</button>
+                <button>Second</button>
+                <button>Third</button>
+            </div>
+            <p>You can also do multiple rows</p>
+            <div class="btn-toolbar">
+                <div class="btn-row">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+                <div class="btn-row">
+                    <button>4</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="w-1/3 box box">
+        <section>
+             <h3>Navigation</h3>
+            <ul>
+                <a href="colors.html">
+                    <li>Colors</li>
+                </a>
+                <a href="buttons.html">
+                    <li>Buttons</li>
+                </a>
+
+            </ul>
+        </section>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        2020 Max Koon
+    </div>
+</footer>
+<script>
+    let navbar = document.getElementById("nav");
+    window.addEventListener('scroll', function() {
+        navbar.classList.toggle('clear', window.scrollY < 120)
+    })
+
+
+    // object-fit polyfill run
+	objectFitImages();
+	/* init Jarallax */
+	jarallax(document.querySelectorAll('.jarallax'));
+</script>
+</body>
+</html>
