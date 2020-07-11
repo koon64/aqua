@@ -285,283 +285,283 @@
 }
 
 .grey {
-  color: #636974;
+  color: #636974 !important;
 }
 
 .grey-100 {
-  color: #ced0d5;
+  color: #ced0d5 !important;
 }
 
 .grey-200 {
-  color: #b8bcc2;
+  color: #b8bcc2 !important;
 }
 
 .grey-300 {
-  color: #a2a7b0;
+  color: #a2a7b0 !important;
 }
 
 .grey-400 {
-  color: #8c929d;
+  color: #8c929d !important;
 }
 
 .grey-500 {
-  color: #767d8a;
+  color: #767d8a !important;
 }
 
 .grey-600 {
-  color: #636974;
+  color: #636974 !important;
 }
 
 .grey-700 {
-  color: #34373d;
+  color: #34373d !important;
 }
 
 .grey-800 {
-  color: #282b2f;
+  color: #282b2f !important;
 }
 
 .grey-900 {
-  color: #1d1e21;
+  color: #1d1e21 !important;
 }
 
 .red {
-  color: #ff4757;
+  color: #ff4757 !important;
 }
 
 .red-100 {
-  color: white;
+  color: white !important;
 }
 
 .red-200 {
-  color: #ffeaec;
+  color: #ffeaec !important;
 }
 
 .red-300 {
-  color: #ffc1c7;
+  color: #ffc1c7 !important;
 }
 
 .red-400 {
-  color: #ff99a2;
+  color: #ff99a2 !important;
 }
 
 .red-500 {
-  color: #ff707c;
+  color: #ff707c !important;
 }
 
 .red-600 {
-  color: #ff4757;
+  color: #ff4757 !important;
 }
 
 .red-700 {
-  color: #ff051a;
+  color: #ff051a !important;
 }
 
 .red-800 {
-  color: #c10011;
+  color: #c10011 !important;
 }
 
 .red-900 {
-  color: #7a000b;
+  color: #7a000b !important;
 }
 
 .orange {
-  color: #ff7f50;
+  color: #ff7f50 !important;
 }
 
 .orange-100 {
-  color: white;
+  color: white !important;
 }
 
 .orange-200 {
-  color: #fff6f3;
+  color: #fff6f3 !important;
 }
 
 .orange-300 {
-  color: #ffd9ca;
+  color: #ffd9ca !important;
 }
 
 .orange-400 {
-  color: #ffbba2;
+  color: #ffbba2 !important;
 }
 
 .orange-500 {
-  color: #ff9d79;
+  color: #ff9d79 !important;
 }
 
 .orange-600 {
-  color: coral;
+  color: coral !important;
 }
 
 .orange-700 {
-  color: #ff4f0e;
+  color: #ff4f0e !important;
 }
 
 .orange-800 {
-  color: #ca3600;
+  color: #ca3600 !important;
 }
 
 .orange-900 {
-  color: #832300;
+  color: #832300 !important;
 }
 
 .yellow {
-  color: #ffa502;
+  color: #ffa502 !important;
 }
 
 .yellow-100 {
-  color: #ffeece;
+  color: #ffeece !important;
 }
 
 .yellow-200 {
-  color: #ffdfa5;
+  color: #ffdfa5 !important;
 }
 
 .yellow-300 {
-  color: #ffd17c;
+  color: #ffd17c !important;
 }
 
 .yellow-400 {
-  color: #ffc254;
+  color: #ffc254 !important;
 }
 
 .yellow-500 {
-  color: #ffb42b;
+  color: #ffb42b !important;
 }
 
 .yellow-600 {
-  color: #ffa502;
+  color: #ffa502 !important;
 }
 
 .yellow-700 {
-  color: #bf7b00;
+  color: #bf7b00 !important;
 }
 
 .yellow-800 {
-  color: #7c5000;
+  color: #7c5000 !important;
 }
 
 .yellow-900 {
-  color: #352200;
+  color: #352200 !important;
 }
 
 .green {
-  color: #2ed573;
+  color: #2ed573 !important;
 }
 
 .green-100 {
-  color: #d8f7e5;
+  color: #d8f7e5 !important;
 }
 
 .green-200 {
-  color: #b6f0ce;
+  color: #b6f0ce !important;
 }
 
 .green-300 {
-  color: #94e9b7;
+  color: #94e9b7 !important;
 }
 
 .green-400 {
-  color: #72e3a1;
+  color: #72e3a1 !important;
 }
 
 .green-500 {
-  color: #50dc8a;
+  color: #50dc8a !important;
 }
 
 .green-600 {
-  color: #2ed573;
+  color: #2ed573 !important;
 }
 
 .green-700 {
-  color: #20a055;
+  color: #20a055 !important;
 }
 
 .green-800 {
-  color: #156938;
+  color: #156938 !important;
 }
 
 .green-900 {
-  color: #092e18;
+  color: #092e18 !important;
 }
 
 .blue {
-  color: #1e90ff;
+  color: #1e90ff !important;
 }
 
 .blue-100 {
-  color: #eaf5ff;
+  color: #eaf5ff !important;
 }
 
 .blue-200 {
-  color: #c1e1ff;
+  color: #c1e1ff !important;
 }
 
 .blue-300 {
-  color: #98ccff;
+  color: #98ccff !important;
 }
 
 .blue-400 {
-  color: #70b8ff;
+  color: #70b8ff !important;
 }
 
 .blue-500 {
-  color: #47a4ff;
+  color: #47a4ff !important;
 }
 
 .blue-600 {
-  color: dodgerblue;
+  color: dodgerblue !important;
 }
 
 .blue-700 {
-  color: #006fdb;
+  color: #006fdb !important;
 }
 
 .blue-800 {
-  color: #004d98;
+  color: #004d98 !important;
 }
 
 .blue-900 {
-  color: #002951;
+  color: #002951 !important;
 }
 
 .purple {
-  color: #5352ed;
+  color: #5352ed !important;
 }
 
 .purple-100 {
-  color: white;
+  color: white !important;
 }
 
 .purple-200 {
-  color: #e6e6fc;
+  color: #e6e6fc !important;
 }
 
 .purple-300 {
-  color: #c1c1f9;
+  color: #c1c1f9 !important;
 }
 
 .purple-400 {
-  color: #9c9cf5;
+  color: #9c9cf5 !important;
 }
 
 .purple-500 {
-  color: #7877f1;
+  color: #7877f1 !important;
 }
 
 .purple-600 {
-  color: #5352ed;
+  color: #5352ed !important;
 }
 
 .purple-700 {
-  color: #1918e5;
+  color: #1918e5 !important;
 }
 
 .purple-800 {
-  color: #1312a9;
+  color: #1312a9 !important;
 }
 
 .purple-900 {
-  color: #0b0b68;
+  color: #0b0b68 !important;
 }
 
 .h-0 {
