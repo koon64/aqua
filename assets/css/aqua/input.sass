@@ -1,0 +1,43 @@
+.inpt-container
+  position: relative
+
+  > label
+    display: block
+    padding-left: $padding-1
+
+  > .inpt-group
+    width: 100%
+    display: flex
+    border: $border-width-base solid $grey-650
+    background-color: $grey-800
+    @include rounded
+
+    input
+      width: 100%
+      border: none
+      background: transparent
+      padding: $padding-2
+
+    @mixin input-group-side
+
+    .prepend,
+    .append
+      background-color: $grey-700
+      border-color: $grey-650
+      border-style: solid
+      padding: 0 $padding-2
+
+      &.append
+        border-left-width: $border-width-base
+
+      &.prepend
+        border-right-width: $border-width-base
+
+      .text
+        display: flex
+        height: 100%
+        align-items: center
+
+  > .subtxt
+      @include text-sm
+      color: $grey-400

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inputs</title>
+    <link href="../aqua.css" type="text/css" rel="stylesheet">
+    <!--<script src="https://unpkg.com/object-fit-images@3.2.4/dist/ofi.min.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax-video.js"></script>-->
+</head>
+<body>
+<navbar dynamic id="nav" class="clear">
+    <div class="nav_content">
+        <div class="left">
+            ON THE LEFT
+        </div>
+        <div class="center">
+            ON THE CENTER
+        </div>
+        <div class="right">
+            ON THE RIGHT
+        </div>
+    </div>
+</navbar>
+<div class="jumbohead liquid">
+    <div class="container p-4">
+        <h1 class="jumbo">Input Forms</h1>
+        <p>Let users input things!</p>
+    </div>
+</div>
+<div class="main">
+    <div class="w-full box">
+        <section>
+            <h1>Basic Usage</h1>
+            <p></p>
+            <div class="inpt-container">
+                <label for="basic_text">Enter Some Text</label>
+                <div class="inpt-group">
+                    <input id="basic_text" type="text" placeholder="Enter Some Text">
+                </div>
+            </div>
+            <hr>
+            <h1>Subtext</h1>
+            <p>Add a subtext under an input</p>
+            <div class="inpt-container">
+                <label for="username">Username</label>
+                <div class="inpt-group">
+                    <input type="text" id="username" placeholder="Username*">
+                </div>
+                <label class="subtxt">*Required</label>
+            </div>
+            <hr>
+            <h1>Input Groups</h1>
+            <p></p>
+            <div class="inpt-container">
+                <label for="email">Enter Email</label>
+                <div class="inpt-group">
+                    <input type="text" id="email" placeholder="Email">
+                    <div class="append">
+                        <div class="text">@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="inpt-container">
+                <label for="phone">Enter Phone</label>
+                <div class="inpt-group">
+                    <div class="prepend">
+                        <div class="text">+1</div>
+                    </div>
+                    <input type="number" id="phone" placeholder="Phone">
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        2020 Max Koon
+    </div>
+</footer>
+<script>
+    let navbar = document.getElementById("nav");
+    window.addEventListener('scroll', function() {
+        navbar.classList.toggle('clear', window.scrollY < 120)
+    });
+
+
+    // object-fit polyfill run
+	objectFitImages();
+	/* init Jarallax */
+	jarallax(document.querySelectorAll('.jarallax'));
+</script>
+</body>
+</html>

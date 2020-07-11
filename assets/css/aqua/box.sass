@@ -1,8 +1,12 @@
 .box
-  @include rounded-lg
-  @include border
-  @include margin-2
+  @include rounded-none
+  @include border-0
+  @include margin-0
   background: $grey-700
+
+  @media (min-width: 640px)
+    @include margin-2
+    @include rounded-lg
 
   > section
     @include padding-8
