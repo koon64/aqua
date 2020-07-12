@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text</title>
+    <link href="../aqua.css" type="text/css" rel="stylesheet">
+    <!--<script src="https://unpkg.com/object-fit-images@3.2.4/dist/ofi.min.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax.js"></script>
+    <script src="https://frontendscript.com/demo/video-parallax-background-demo/dist/jarallax-video.js"></script>-->
+</head>
+<body>
+<navbar dynamic id="nav" class="clear">
+    <div class="nav_content">
+        <div class="left">
+            ON THE LEFT
+        </div>
+        <div class="center">
+            ON THE CENTER
+        </div>
+        <div class="right">
+            ON THE RIGHT
+        </div>
+    </div>
+</navbar>
+<div class="jumbohead liquid">
+    <div class="container p-4">
+        <h1 class="jumbo">Text</h1>
+        <p>Show off some text?</p>
+    </div>
+</div>
+<div class="main">
+    <div class="w-full box">
+        <section>
+            <h1 class="hr">Standard Headers</h1>
+            <h1>H1</h1>
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6>
+
+        </section>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        2020 Max Koon
+    </div>
+</footer>
+<script>
+    let navbar = document.getElementById("nav");
+    window.addEventListener('scroll', function() {
+        navbar.classList.toggle('clear', window.scrollY < 120)
+    });
+
+
+    // object-fit polyfill run
+	objectFitImages();
+	/* init Jarallax */
+	jarallax(document.querySelectorAll('.jarallax'));
+</script>
+</body>
+</html>
