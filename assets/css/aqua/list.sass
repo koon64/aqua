@@ -1,0 +1,11 @@
+.list
+  .item
+
+    @include padding-2
+    @include rounded
+    color: $grey-100
+
+    &.active
+      background: desaturate($blue-800, 80%)
+      color: $blue-500
+      @include font-medium
