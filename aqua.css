@@ -6349,47 +6349,47 @@ button:hover:not(:disabled) {
 button:active {
   background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 90%) !important;
 }
-button.primary {
+button.btn-primary {
   background-color: dodgerblue;
   border-color: #004d98;
   color: #ffffff;
 }
-button.red {
+button.btn-red {
   background-color: #ff4757;
   border-color: #c10011;
   color: #ffffff;
 }
-button.orange {
+button.btn-orange {
   background-color: coral;
   border-color: #ca3600;
   color: #ffffff;
 }
-button.yellow {
+button.btn-yellow {
   background-color: #ffa502;
   border-color: #7c5000;
   color: #ffffff;
 }
-button.green {
+button.btn-green {
   background-color: #2ed573;
   border-color: #156938;
   color: #ffffff;
 }
-button.blue {
+button.btn-blue {
   background-color: dodgerblue;
   border-color: #004d98;
   color: #ffffff;
 }
-button.purple {
+button.btn-purple {
   background-color: #5352ed;
   border-color: #1312a9;
   color: #ffffff;
 }
-button.grey {
+button.btn-grey {
   background-color: #636974;
   border-color: #282b2f;
   color: #ffffff;
 }
-button.black {
+button.btn-black {
   background-color: #1d1e21;
   border-color: #282b2f;
   color: #ffffff;
@@ -6681,6 +6681,19 @@ footer {
 .inpt-container > .subtxt {
   font-size: 0.875rem;
   color: #8c929d;
+}
+
+.list .item {
+  padding: 0.5rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  color: #ced0d5;
+}
+.list .item.active {
+  background: #3d4c5b;
+  color: #47a4ff;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=aqua.css.map */
