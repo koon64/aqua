@@ -1,0 +1,41 @@
+$table-border-color: $grey-900
+$table-bg-color: $grey-800
+
+table
+  background: $table-bg-color
+  width: 100%
+  border: 1px solid $table-border-color
+  border-left: 0
+  border-collapse: separate
+  @include rounded
+  border-spacing: 0
+
+  thead
+    display: table-header-group
+    vertical-align: middle
+    border-color: inherit
+    border-collapse: separate
+
+  tr
+    display: table-row
+    vertical-align: inherit
+    border-color: inherit
+
+  th, td
+    padding: 5px 4px 6px 4px
+    //change this
+    text-align: left
+    vertical-align: top
+    border-left: 1px solid $table-border-color
+
+  td
+    border-top: 1px solid $table-border-color
+
+  thead:first-child tr:first-child th:first-child, tbody:first-child tr:first-child td:first-child
+    border-radius: 4px 0 0 0
+
+  thead:last-child tr:last-child th:first-child, tbody:last-child tr:last-child td:first-child
+    border-radius: 0 0 0 4px
+
+
+
