@@ -1,0 +1,24 @@
+.alert
+  padding: $padding-3 $padding-5
+  margin-bottom: $margin-4
+  @include border
+  @include rounded
+
+  background: $blue-300
+  border-color: $blue-400
+  color: $blue-800
+
+  &.alert-error
+    background: $red-300
+    border-color: $red-400
+    color: $red-700
+
+  &.alert-warning
+    background: $yellow-300
+    border-color: $yellow-400
+    color: $yellow-800
+
+  &.alert-success
+    background: $green-300
+    border-color: $green-400
+    color: $green-800
