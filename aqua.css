@@ -849,7 +849,7 @@
 }
 
 .w-screen {
-  width: 100vh !important;
+  width: 100vw !important;
 }
 
 .p-0 {
@@ -2986,6 +2986,18 @@
   transform: translate(-50%, -50%);
 }
 
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -3124,6 +3136,45 @@
 
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.ox-none {
+  overflow-x: hidden;
+}
+
+.oy-none {
+  overflow-y: hidden;
+}
+
+.o-none {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.ox-auto {
+  overflow-x: auto;
+}
+
+.oy-auto {
+  overflow-y: auto;
+}
+
+.o-auto {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.ox-scroll {
+  overflow-x: scroll;
+}
+
+.oy-scroll {
+  overflow-y: scroll;
+}
+
+.o-scroll {
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 html {
@@ -6822,6 +6873,18 @@ footer {
   background: #94e9b7;
   border-color: #72e3a1;
   color: #156938;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.overlay.passive {
+  pointer-events: none;
 }
 
 /*# sourceMappingURL=aqua.css.map */

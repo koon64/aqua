@@ -1,0 +1,31 @@
+@mixin ox-none
+  overflow-x: hidden
+
+@mixin oy-none
+  overflow-y: hidden
+
+@mixin o-none
+  @include ox-none
+  @include oy-none
+
+@mixin ox-auto
+  overflow-x: auto
+
+@mixin oy-auto
+  overflow-y: auto
+
+@mixin o-auto
+  @include ox-auto
+  @include oy-auto
+
+@mixin ox-scroll
+  overflow-x: scroll
+
+@mixin oy-scroll
+  overflow-y: scroll
+
+@mixin o-scroll
+  @include ox-scroll
+  @include oy-scroll
+
+
